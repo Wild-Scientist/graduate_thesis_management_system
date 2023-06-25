@@ -1,0 +1,108 @@
+@import '~antd/es/style/themes/default.less';
+
+html,
+body,
+#root {
+  height: 100%;
+
+  canvas {
+    display: block;
+  }
+
+  body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  ul,
+  ol {
+    list-style: none;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  /**
+   * reset antd
+   */
+
+  .ant-layout {
+    min-height: 100vh;
+  }
+
+  @media (max-width: @screen-xs) {
+    .ant-table {
+      width: 100%;
+      overflow-x: auto;
+
+      &-thead > tr,
+      &-tbody > tr {
+        > th,
+        > td {
+          white-space: pre;
+
+          > span {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+
+  /**
+   * reset antd pro
+   */
+
+  .ant-pro-sider.ant-layout-sider.ant-pro-sider-fixed {
+    left: unset;
+  }
+
+  .ant-pro-table-list-toolbar-container-mobile {
+    flex-direction: row;
+    gap: 16px;
+    align-items: center;
+
+    .ant-pro-table-list-toolbar-left {
+      margin-bottom: 0;
+    }
+
+    .ant-pro-table-list-toolbar-right {
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+  }
+
+  @media (max-width: @screen-xs) {
+    .ant-pro-table {
+      .ant-table-thead {
+        & > tr {
+          & > th {
+            white-space: initial;
+          }
+        }
+      }
+    }
+
+    .ant-pro-basicLayout-content {
+      margin: 0;
+
+      .ant-pro-page-container {
+        margin: 0;
+
+        .ant-pro-page-container-children-content {
+          margin: 20px 0 0 0;
+        }
+      }
+    }
+  }
+
+  // Compatible with IE11
+  @media screen and(-ms-high-contrast: active), (-ms-high-contrast: none) {
+    body .ant-design-pro > .ant-layout {
+      min-height: 100vh;
+    }
+  }
+}

@@ -1,0 +1,101 @@
+@import '~antd/es/style/themes/default.less';
+
+.main {
+  width: 368px;
+  margin: 0 auto;
+
+  .top {
+    text-align: center;
+
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 44px;
+      line-height: 44px;
+
+      .logo {
+        width: 44px;
+        height: 44px;
+        margin-right: 16px;
+        vertical-align: top;
+
+        img {
+          width: 100%;
+        }
+      }
+
+      .title {
+        position: relative;
+        top: 2px;
+        color: rgba(0, 0, 0, 0.85);
+        font-weight: 600;
+        font-size: 33px;
+      }
+    }
+
+    .desc {
+      margin-top: 12px;
+      margin-bottom: 40px;
+      color: rgba(0, 0, 0, 0.45);
+      font-size: 14px;
+    }
+  }
+
+  .password {
+    margin-bottom: 24px;
+
+    :global {
+      .ant-form-item-explain {
+        display: none;
+      }
+    }
+  }
+
+  .captcha {
+    display: flex;
+    justify-content: space-between;
+
+    .input {
+      flex-grow: 1;
+    }
+    .getCaptcha {
+      margin-left: 10px;
+    }
+  }
+
+  .submit {
+    width: 100%;
+  }
+
+  .login {
+    float: right;
+    margin-top: -10px;
+  }
+}
+
+.success,
+.warning,
+.error {
+  transition: color 0.3s;
+}
+
+.success {
+  color: @success-color;
+}
+
+.warning {
+  color: @warning-color;
+}
+
+.error {
+  color: @error-color;
+}
+
+.progress-pass > .progress {
+  :global {
+    .ant-progress-bg {
+      background-color: @warning-color;
+    }
+  }
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <title>Loading...</title>
+    <link rel="icon" href="<%= context.config.publicPath +'favicon.ico'%>" type="image/x-icon" />
+  </head>
+  <body>
+    <noscript>
+      <div class="noscript-container">
+        Hi there! Please
+        <div class="noscript-enableJS">
+          <a href="https://www.enablejavascript.io/en" target="_blank" rel="noopener noreferrer">
+            <b>enable Javascript</b>
+          </a>
+        </div>
+      </div>
+    </noscript>
+    <div id="root">
+      <style>
+        html,
+        body,
+        #root {
+          height: 100%;
+          margin: 0;
+          padding: 0;
+        }
+        #root {
+          background-repeat: no-repeat;
+          background-size: 100% auto;
+        }
+        .noscript-container {
+          display: flex;
+          align-content: center;
+          justify-content: center;
+          margin-top: 90px;
+          font-size: 20px;
+          font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',
+            Geneva, Verdana, sans-serif;
+        }
+        .noscript-enableJS {
+          padding-right: 3px;
+          padding-left: 3px;
+        }
+        @media screen and (max-width: 576px){
+          .loading{
+            max-width: 100%;
+          }
+        }
+      </style>
+      <div
+        style="
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          height: 100%;
+          min-height: 420px;
+        "
+      >
+        <img class="loading" src="<%= context.config.publicPath +'loading.gif'%>" alt="loading" />
+      </div>
+    </div>
+  </body>
+</html>

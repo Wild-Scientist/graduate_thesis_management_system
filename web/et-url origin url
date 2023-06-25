@@ -1,0 +1,287 @@
+[33mcommit c07a6a5939bde6cc9ef0c41607c53e50ce8dcaa2[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: 9f1094d 2c04fea
+Author: Night <87826632@qq.com>
+Date:   Thu Feb 23 11:17:31 2023 +0800
+
+    Merge remote-tracking branch 'origin/feature/beauty'
+
+[33mcommit 2c04fead637b2b4518557e49219dcbc433f3a107[m[33m ([m[1;31morigin/feature/beauty[m[33m)[m
+Author: Chuanyang Gong <cy_gong@foxmail.com>
+Date:   Fri Feb 17 17:08:42 2023 +0800
+
+    优化师德档案移动端界面
+
+[33mcommit 9f1094d1b74a34c617e9868714674e0e2441bbc3[m
+Merge: a5289f2 9ddbeaf
+Author: Night <87826632@qq.com>
+Date:   Thu Feb 16 10:15:10 2023 +0800
+
+    Merge remote-tracking branch 'origin/feature/beauty'
+
+[33mcommit 9ddbeaf3bbdc2c4c30247686b858a8599dab9715[m
+Author: Chuanyang Gong <cy_gong@foxmail.com>
+Date:   Wed Feb 8 13:54:05 2023 +0800
+
+    修改表格高度
+
+[33mcommit d306fd5fcd241a259181a1945c20d10482808be5[m
+Author: Chuanyang Gong <cy_gong@foxmail.com>
+Date:   Wed Feb 8 13:48:22 2023 +0800
+
+    师德档案界面美化
+
+[33mcommit a5289f22314c387a08eebc1198845b1e2208d921[m[33m ([m[1;31morigin/feature/hr_api[m[33m)[m
+Author: Chuanyang Gong <cy_gong@foxmail.com>
+Date:   Thu Feb 2 13:51:03 2023 +0800
+
+    禁用导入年度考核按钮
+
+[33mcommit 3fe2604c358768f93f75417d9959ef5a0ca5d20c[m
+Merge: 216ca21 7fc25ed
+Author: Chuanyang Gong <cy_gong@foxmail.com>
+Date:   Fri Jan 13 15:21:58 2023 +0800
+
+    Merge branch 'master' of e.coding.net:SadCreeper/sc2210-ethic/sc2210-ethic-web
+
+[33mcommit 216ca21d30545fa27677ed5ba88944721299256f[m
+Author: Chuanyang Gong <cy_gong@foxmail.com>
+Date:   Fri Jan 13 15:21:43 2023 +0800
+
+    seed 用户管理 - 同步信息 + 部门列表迁移
+
+[33mcommit 7fc25edf9f6941fedc6d4388b5bcc1e2aaf7d96d[m
+Author: Night <87826632@qq.com>
+Date:   Wed Jan 11 12:56:32 2023 +0800
+
+    修复header logo显示不出来问题
+
+[33mcommit c299e5424a68f63daf63857a317fe0675b61e8e4[m
+Author: Chuanyang Gong <cy_gong@foxmail.com>
+Date:   Tue Jan 10 22:03:50 2023 +0800
+
+    fix bugs & 完成新需求
+
+[33mcommit d091460ef9f440685ffb6a0290d80bbdca2269fd[m
+Author: Night <87826632@qq.com>
+Date:   Sat Dec 24 11:31:27 2022 +0800
+
+    首页闪现403问题优化
+
+[33mcommit 84ee1c6fc3589436ac80ca7c30ebf6982f614829[m
+Author: Night <87826632@qq.com>
+Date:   Thu Dec 1 13:51:56 2022 +0800
+
+    更新read-text
+
+[33mcommit deca9ee65429239f3989a0c0a87abe5648c6eb05[m
+Author: Night <87826632@qq.com>
+Date:   Mon Nov 21 09:39:27 2022 +0800
+
+    隐藏个人页
+
+[33mcommit 2855911fabe626e7ece006c6cf722de09f869b95[m
+Author: Night <87826632@qq.com>
+Date:   Mon Nov 21 09:37:14 2022 +0800
+
+    代码优化
+
+[33mcommit b49365b0814a3bb598ba3dc22ef917c6c78d0b1b[m
+Author: Night <87826632@qq.com>
+Date:   Tue Nov 15 14:55:04 2022 +0800
+
+    师德档案详情接口分开
+
+[33mcommit 441306391c9024bf1bc7868f3f37e535a75f1ced[m
+Author: Night <87826632@qq.com>
+Date:   Tue Nov 15 13:48:44 2022 +0800
+
+    师德档案详情
+
+[33mcommit 15147a502f8f1b4bd53a7a92312813e88004a086[m
+Author: Night <87826632@qq.com>
+Date:   Tue Nov 15 10:56:09 2022 +0800
+
+    导入违规记录
+
+[33mcommit 360c095c4f167107b8d088c4c26b94d6291fd52f[m
+Author: Night <87826632@qq.com>
+Date:   Tue Nov 15 10:46:55 2022 +0800
+
+    导入培训记录
+
+[33mcommit 008cb8e8a4443c8f01aa087247228ffcbd455333[m
+Author: Night <87826632@qq.com>
+Date:   Tue Nov 15 10:17:30 2022 +0800
+
+    导入表彰记录
+
+[33mcommit f39d708ad00eb0076c9969fdb1bd09b4265a7886[m
+Author: Night <87826632@qq.com>
+Date:   Mon Nov 14 19:42:25 2022 +0800
+
+    师德档案基础、导入年度考核记录
+
+[33mcommit eb4862b0004b5cdeea559783d60900c0067e45d3[m
+Author: Night <87826632@qq.com>
+Date:   Mon Nov 14 09:56:31 2022 +0800
+
+    已完成退回功能完成
+
+[33mcommit 53b50b4bd9568e8be72f21e707f9f015e93c981c[m
+Author: Night <87826632@qq.com>
+Date:   Sun Nov 13 20:17:07 2022 +0800
+
+    学校评价步骤操作完成
+
+[33mcommit 78ca457c23f19e92df3c9d0c9f73ffe6b633cc62[m
+Author: Night <87826632@qq.com>
+Date:   Sun Nov 13 18:50:42 2022 +0800
+
+    待学校审核步骤显示权限设置
+
+[33mcommit d3bf3d6e60d40958562d239297d6f62e5d5f722b[m
+Author: Night <87826632@qq.com>
+Date:   Sun Nov 13 17:20:58 2022 +0800
+
+    考察人写评价功能完成
+
+[33mcommit a025d0fbd492b1285c67e8daf2d4b78caeb86d14[m
+Author: Night <87826632@qq.com>
+Date:   Sat Nov 12 11:51:13 2022 +0800
+
+    添加考察人基础完成
+
+[33mcommit c2acefe15296142be9aaaa718c9c5785a079e517[m
+Author: Night <87826632@qq.com>
+Date:   Fri Nov 11 15:12:50 2022 +0800
+
+    单位退回完成
+
+[33mcommit e3e129424e21bbf7e833a99031b5e7223927a6ca[m
+Author: Night <87826632@qq.com>
+Date:   Fri Nov 11 14:26:19 2022 +0800
+
+    单位评价编辑框功能完成
+
+[33mcommit d91872c23c8da8d8c20432dc837c09540c96ef45[m
+Author: Night <87826632@qq.com>
+Date:   Thu Nov 10 13:59:53 2022 +0800
+
+    单位评价编辑框基础完成
+
+[33mcommit 957da3b4d292ff414494eae7f0601a543754ac54[m
+Author: Night <87826632@qq.com>
+Date:   Thu Nov 10 13:00:22 2022 +0800
+
+    考察申请详情基础完成2
+
+[33mcommit bec5b0cbac61d394e50b47d839a7ac8a87576c8e[m
+Author: Night <87826632@qq.com>
+Date:   Thu Nov 10 11:07:08 2022 +0800
+
+    考察申请详情基础完成
+
+[33mcommit 9f44743a411c09f7b26e7676b7ad99d2cae3a5a3[m
+Author: Night <87826632@qq.com>
+Date:   Wed Nov 9 21:50:10 2022 +0800
+
+    更新routes
+
+[33mcommit 006e4e045461c673df8f8fa597331fc892d19fb7[m
+Author: Night <87826632@qq.com>
+Date:   Wed Nov 9 19:24:03 2022 +0800
+
+    删除完成
+
+[33mcommit 100c90a0e6b9ef889bbfc6f1d42cc9a1d786ada2[m
+Author: Night <87826632@qq.com>
+Date:   Mon Nov 7 15:04:04 2022 +0800
+
+    撤回完成
+
+[33mcommit a6a82c14783cef9c63f821f4bc71d3318e2d183b[m
+Author: Night <87826632@qq.com>
+Date:   Mon Nov 7 14:30:45 2022 +0800
+
+    发起师德考察前需阅读功能完成
+
+[33mcommit d30ad06a9395efcf38ee6abc95a57a7f1fb70fae[m
+Author: Night <87826632@qq.com>
+Date:   Mon Nov 7 13:41:24 2022 +0800
+
+    编辑师德考察完成
+
+[33mcommit e9453a89fd2cd3a9ff4d06d07ec92c08fc5c0290[m
+Author: Night <87826632@qq.com>
+Date:   Mon Nov 7 10:39:38 2022 +0800
+
+    发起师德考察完成
+
+[33mcommit 00aa327dc621be9ab957a2f044cbac4c7da3782a[m
+Author: Night <87826632@qq.com>
+Date:   Mon Nov 7 09:26:28 2022 +0800
+
+    师德考察空列表完成
+
+[33mcommit 3f2fec038ae5cabff916c598a764ea8883022948[m
+Author: Night <87826632@qq.com>
+Date:   Sun Nov 6 11:03:32 2022 +0800
+
+    增加师德档案、系统管理菜单
+
+[33mcommit 626947a07b48979985c54cf9a38bc17ee2a09b9d[m
+Author: Night <87826632@qq.com>
+Date:   Sat Nov 5 16:31:36 2022 +0800
+
+    增加菜单师德考察
+
+[33mcommit b75c20d8b90170f4ef2df11fadd002b3494b4f94[m
+Author: Night <87826632@qq.com>
+Date:   Sat Nov 5 16:02:38 2022 +0800
+
+    修改系统名、登录跳转、header
+
+[33mcommit c276ab5f60d214ab94615662c23af7e3c0ae9a2a[m
+Author: Night <87826632@qq.com>
+Date:   Sat Nov 5 15:46:29 2022 +0800
+
+    修改后端地址
+
+[33mcommit 496c782b08911ee7ee2d83846cbef10fc88b439e[m
+Author: Night <87826632@qq.com>
+Date:   Sat Nov 5 13:44:38 2022 +0800
+
+    加载页更新成跳鱼
+
+[33mcommit 1ca6ae4f28f5c921b6a459fac081f69e3498f076[m
+Author: Night <87826632@qq.com>
+Date:   Thu Nov 3 14:45:03 2022 +0800
+
+    视频类型附件改为public、增加dplayer2
+
+[33mcommit 39aa63c13a6f699822d8733dfcd6ee47974344d3[m
+Author: Night <87826632@qq.com>
+Date:   Thu Nov 3 14:36:37 2022 +0800
+
+    视频类型附件改为public、增加dplayer
+
+[33mcommit 55d9d5ed453ccfde83a640bc8458ecbbdac0fce2[m
+Author: Night <87826632@qq.com>
+Date:   Thu Oct 27 17:49:08 2022 +0800
+
+    增加开发测试环境登录任意用户功能
+
+[33mcommit 557e4414a11489936cd8ce5b0974dda905aa6d45[m
+Author: Night <87826632@qq.com>
+Date:   Wed Oct 19 16:20:43 2022 +0800
+
+    用户列表查看详情增加飞书部门显示
+
+[33mcommit beb82afbdb5e44f15cb8b993652a130216a29f18[m
+Author: Night <87826632@qq.com>
+Date:   Fri Oct 14 20:11:05 2022 +0800
+
+    组件库-飞书-通讯录：增加通讯录选择器用在表单的例子
+
+[33mcommit 24678e26fd498d0e5fd79b606846e5034ec1fd4b[m
+A

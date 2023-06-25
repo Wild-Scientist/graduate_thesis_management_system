@@ -1,0 +1,43 @@
+@import '~antd/es/style/themes/default.less';
+
+.treeContainer {
+  height: 100%;
+  padding: 10px 20px;
+  background-color: white;
+
+  .treeNode {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+    .name {
+      padding: 10px 0;
+    }
+
+    .buttons {
+      display: flex;
+      align-items: center;
+      padding: 0 10px;
+    }
+  }
+}
+
+.themeIcon {
+  color: @primary-color;
+}
+
+.deleteIcon {
+  color: @error-color;
+}
+
+:global {
+  .ant-tree .ant-tree-treenode {
+    display: flex;
+    align-items: center;
+  }
+
+  .ant-tree-switcher {
+    display: flex;
+    align-items: center;
+  }
+}

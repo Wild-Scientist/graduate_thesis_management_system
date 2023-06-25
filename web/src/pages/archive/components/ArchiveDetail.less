@@ -1,0 +1,72 @@
+@import '~antd/es/style/themes/default.less';
+
+.container {
+  .mobileCardWrap {
+    margin-bottom: 14px;
+    background-color: white;
+    border-radius: 5px;
+
+    .title {
+      padding: 14px;
+      border-bottom: 2px solid #f7f8fa;
+    }
+
+    .body {
+      padding: 14px;
+    }
+
+    .tableBody {
+      padding: 6px;
+    }
+
+    :global {
+      .ant-table-wrapper {
+        margin: 0 !important;
+      }
+
+      .ant-table-thead {
+        .ant-table-cell {
+          font-weight: 700;
+        }
+      }
+
+      .ant-table-cell {
+        padding: 4px 8px;
+        background-color: #fff;
+        border: none;
+      }
+
+      .ant-table-cell::before {
+        display: none;
+      }
+    }
+  }
+
+  h1 {
+    margin-bottom: 40px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  h2 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .field {
+    display: flex;
+
+    .label {
+      flex: none;
+      margin-bottom: 5px;
+    }
+
+    .value {
+      margin-bottom: 5px;
+    }
+  }
+
+  @media (max-width: @screen-xs) {
+  }
+}
